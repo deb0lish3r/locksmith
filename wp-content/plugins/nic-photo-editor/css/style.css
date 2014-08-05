@@ -1,0 +1,113 @@
+#bring_front_image_label{
+background : url(../images/shape_move_front.png) no-repeat 5px 6px;
+height: 22px;
+min-width:50px;
+float: left;
+margin-left: 7px;    
+min-width: 25px;
+}
+
+#upload_image_label{
+background : url(../images/upload_photo.png) no-repeat 5px 6px;
+height: 55px;
+min-width:50px;
+float: left;
+margin-left: 7px;  
+min-width: 60px;
+}
+
+#upload_image_button{
+  margin-top:15px;
+}
+
+
+#send_back_image_label{
+background : url(../images/shape_move_back.png) no-repeat 5px 6px;
+height: 22px;
+min-width:50px;
+float: left;
+margin-left: 7px;
+min-width: 25px;
+}
+
+.wpuf-loading-default{
+background : url(../images/ajax-loader.gif);
+min-width: 66px;
+min-height:66px;
+position:absolute;
+left:25%;
+top:50%;
+z-index:100;
+}
+
+#picture_delete_label{
+background : url(../images/picture_delete.png) no-repeat 5px 6px;
+height: 22px;
+min-width:50px;
+float: left;
+margin-left: 7px;
+min-width: 25px;
+}
+
+#view_image_label{
+background : url(../images/view_image.png) no-repeat 5px 6px;
+height: 22px;
+min-width:50px;
+float: left;
+margin-left: 7px;
+min-width: 25px;
+}
+
+#canvas_image_size_label{
+background : url(../images/canvas_image_size.png) no-repeat 5px 6px;
+height: 22px;
+min-width:50px;
+float: left;
+margin-left: -3px;
+min-width: 25px;
+}
+
+#save_accept_label{
+background : url(../images/save_accept.png) no-repeat 5px 6px;
+height: 22px;
+min-width:50px;
+float: left;
+margin-left: 7px;
+min-width: 25px;
+}
+
+.canvas_container{
+width: 500px; height: 500px;float:left; position: relative; -webkit-user-select: none;border:1px solid #ccc;
+}
+.canvas_main{	
+	min-width:500px;	
+	float:left;
+}
+
+.canvas_sidebar{
+	float:left;
+	background:#ececec;
+	width:280px;
+	padding:5px;
+	margin-left:10px;
+}
+
+.canvas_sidebar div{
+	background-color:#8A8A8A; height:60px;
+}
+
+.canvas_sidebar fieldset{
+border:1px solid; padding:5px; margin:5px; width:260px;
+}
+.canvas_sidebar fieldset legend{
+	
+	font-weight:bold;
+}
+.canvas_sidebar input[type="button"]{
+	width:150px;
+	margin:3px 0 0 0;
+	font-weight:bold;
+}
+.canvas_sidebar fieldset input[type="text"]{
+	width:70px;
+}
